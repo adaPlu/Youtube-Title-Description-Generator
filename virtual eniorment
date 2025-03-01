@@ -1,7 +1,7 @@
 python3 -m venv /path/to/new/virtual/environment
 source /path/to/new/virtual/environment/bin/activate
 Onlyme*#1255adpl5701Onlyme*#1255ADPL5701
-set OPENAI_API_KEY="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"
+set OPENAI_API_KEY="sk-"
 export CLIENT_SECRETS_FILE="/home/pi/YoutubeTitler/client_secret_1025017602117-c5mtl5opjglir92lpl1ltkg2kqeph4r2.apps.googleusercontent.com.json"
 
 
