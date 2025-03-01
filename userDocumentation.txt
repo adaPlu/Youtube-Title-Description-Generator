@@ -1,0 +1,96 @@
+User Documentation for YouTube Title/Description Generator Client Application
+Overview
+This client application enables users to generate and update optimized content for YouTube videos, including titles, descriptions, and tags. It interfaces with a remotely hosted server that handles all processing and interacts with the YouTube  and openAI API.
+
+System Requirements
+Operating System: Windows 7 or higher
+Internet connection for server communication and YouTube API access
+Installation
+Downloading the Application:
+Download the executable file from the provided link.
+No installation is necessary as the application is self-contained.
+First Run:
+Double-click the executable to launch the application.
+Upon first launch, the application may connect to the internet to update certain components or configurations.
+Usage Guide
+Registration and Login:
+First-time Users: The application will prompt new users for registration. Enter a username, create a password, and provide a registration key if required.
+Returning Users: Log in using your username and password.
+Generating Content:
+Input Fields: Enter the title and description of your YouTube video in the designated fields.
+Generate: Click the "Generate" button. The application will then display optimized suggestions for titles, descriptions, and tags based on the input.
+Updating Content on YouTube:
+Single Video Update: To update an individual video, enter the video ID. Use the generated content to update the video directly through the application.
+Bulk Update: The application can automatically generate and apply content updates to multiple videos in your YouTube account.
+Managing API Key and Client Secrets File
+The YouTube Content Generator client application requires specific authentication details, including an openAI API Key and a Client Secrets File, to interact with YouTube and openAI's services securely. 
+Here's how to manage these credentials within the client application:
+
+Managing API Key for OpenAI
+The API Key is crucial for authenticating requests made from the YouTube Content Generator client to the OpenAI API, 
+enabling the application to access advanced AI models for content generation.
+
+Obtaining the OpenAI API Key:
+To use the OpenAI services, you'll need to obtain an API key directly from OpenAI. Here's how to do it:
+
+Visit the OpenAI API Platform:
+Go to the OpenAI website (https://openai.com/).
+If you don't already have an account, you will need to sign up and create one.
+Create an API Key:
+Once logged in, navigate to the API section, often found in your account settings or dashboard.
+Follow the prompts to "Create a new API key". OpenAI will guide you through the process, which may include setting up billing information if necessary.
+Copy Your New API Key:
+After creation, your API key will be displayed. Make sure to copy this key; you'll need to enter it into the application.
+Entering the API Key in the Application:
+When you first run the application or whenever you need to update the API key:
+
+API Key Prompt:
+Upon starting the application, it will prompt you to enter your API Key.
+This is a one-time setup unless the key needs to be updated later.
+Secure Entry:
+Paste the API Key you obtained from OpenAI into the designated input field within the application.
+Encryption and Storage:
+The application encrypts and stores the API Key locally on your machine to secure it from unauthorized access. This key is used to authenticate requests to the OpenAI API.
+Security and Updating Your API Key:
+Secure Storage: The application ensures that your API Key is stored securely using encryption, reducing the risk of unauthorized access.
+Update as Needed: If you need to regenerate or update your API Key due to security changes or policy updates from OpenAI, you can do so by following the steps above and entering the new key into the application.
+By managing your OpenAI API Key carefully, you can maintain secure and efficient access to OpenAI's services, enhancing your ability to generate creative content for your YouTube channel. If you encounter any issues with the API key, refer to the application's help resources or contact OpenAI's support for assistance.
+The application will encrypt and store this key locally for future requests.
+
+Client Secrets File
+The Client Secrets File contains sensitive details used to authenticate the application's requests to Google's OAuth 2.0 server.
+Obtaining the Client Secrets File:
+Access the Google Developers Console.
+Under the same project where you obtained your API Key, navigate to the "OAuth consent screen" section and configure the consent screen.
+Go to "Credentials", click "Create Credentials", and select "OAuth client ID".
+Choose the application type (usually "Desktop app" for client applications), and complete the necessary details.
+After creating the OAuth client ID, click "Download JSON" on the OAuth client page. This file is your Client Secrets File.
+Configuring the Client Secrets File in the Application:
+Upon initial setup, or whenever you need to update the Client Secrets File, the application will prompt you to upload this file.
+Navigate to the location where you saved the Client Secrets File and select it to upload.
+The application will securely store the details and use them to authenticate and manage sessions with YouTube's services.
+Security and Privacy Considerations
+Secure Storage: Both the API Key and the Client Secrets File are encrypted and stored locally to ensure their security. Ensure that your computer is protected with antivirus and anti-malware software to prevent unauthorized access.
+Privacy: The application does not share your API Key or details from your Client Secrets File with any third parties. It is used exclusively for communication with Google's servers.
+Updating Credentials
+If your API Key or Client Secrets File becomes compromised, or if Google requires an update, you should generate new credentials following the steps outlined above and update them in the application.
+By carefully managing your API Key and Client Secrets File, you can securely use the YouTube Content Generator client application to optimize and manage your YouTube content effectively. If you encounter any issues with these credentials, consult the application's help section or contact support for further assistance.
+
+Troubleshooting
+Login Problems:
+Verify that the username and password are entered correctly.
+If you forget your password, use the provided reset link or contact support for a reset.
+Network and Connection Issues:
+Ensure your internet connection is stable and active.
+If the application fails to connect to the server, try restarting the application or check for network issues.
+Content Not Updating:
+Ensure that the correct video ID is used.
+Check for any error messages that might indicate what went wrong, and if necessary, contact support.
+Security
+The application ensures that all sensitive data, including your password, is securely handled.
+Regular updates will enhance security and functionality, ensuring compliance with the latest security standards.
+Support
+For support, queries, or feedback, please contact the support team at supportyoutubeai@gmail.com
+Additional Notes
+Periodic updates to the application may be required to ensure compatibility with YouTube APIs and server-side changes.
+Users are encouraged to regularly check for updates to ensure optimal performance and security.
