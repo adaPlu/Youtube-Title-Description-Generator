@@ -35,7 +35,7 @@ The goal is to demonstrate various ways of integrating AI-based text generation 
 | **YoutubeTitlerCLI.py**   | Command-line interface (CLI) application.                       |
 | **YoutubeTitlerClient.py**      | Unfinished client script (Tkinter-based) for a Client–Server setup. |
 | **YoutubeTitlerClientTest.py**  | Additional/in-progress client script and user-management code.       |
-| **YoutubeTitlerServer** (binary / not fully visible) | Possibly an older or partially compiled server artifact.          |
+| **YoutubeTitlerServer**  | A different version of the server code, code is commented out and just here for reference.      |
 | **YoutubeTitlerServer.py**     | Flask-based server application for user registration, login, etc.    |
 | **YoutubeTitlerServer2.py**    | An alternate/experimental version of the Flask server code.          |
 | **YoutubeTitlerTest.py**       | Testing utilities for the GUI/Client or demonstration code.          |
