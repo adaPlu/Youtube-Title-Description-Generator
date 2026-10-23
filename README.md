@@ -206,15 +206,16 @@ The goal is to demonstrate various ways of integrating AI-based text generation 
 
 ---
 
-8. License
-This project is licensed under the MIT License:
+## 8. License
+
+This project is licensed under the [MIT License](LICENSE). The license applies to the original project code and documentation, not separately licensed dependencies or services.
 
 sql
 Copy
 Edit
 MIT License
 
-Copyright (c) [2025] [Your Name]
+Copyright (c) 2025 Adam Pluguez
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
